@@ -1,20 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Mi proyecto final</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Proyect</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>Proyecto Final</h1>
-    <li>
-        <a href="/proyectofinal/public/usuario">Usuario</a><br/>
-        <a href="/proyectofinal/public/productos">Productos</a><br/>
-        <a href="/proyectofinal/public/categoria">Categorias</a><br/>
-    </li>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.png" alt="Logo" width="60" height="80">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cursos">Cursos</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#sobre-nosotros">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn rounded-pill" href="#">
+              Iniciar Sesión
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="assets/images/Foto de perfil.png" alt="Foto de Perfil" class="rounded-circle">
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+          </li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="container mt-4">
+      <h1>Cursos de Programación</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-4">
+            <h2 class="titulo-verde">PROGRAMACIÓN DESDE CERO</h2>
+            <p>El mejor curso de programación en español regresa renovado. Descubre 
+              con nosotros que la programación no es difícil, sino que te han enseñado mal y lo mejor que solo te cuesta S/ 1.00 por los modulos.
+            <br></p>
+            <p class="texto-verde parrafo-grueso">¿Qué aprenderas?</p>
+            <p> <i class="fas fa-star star-green"></i>Comprender los fundamentos de programación<br>
+                <i class="fas fa-star star-green"></i>Comprender la lógica que está detrás de cualquier lenguaje<br>
+                <i class="fas fa-star star-green"></i>Resolver ejercicios de programación.</p>
+            <button type="button" class="btn btn-success">Mas Información</button>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div id="carousel1" class="carousel slide mt-4" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/carrusel1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/carrusel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/carrusel3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="cursos">
+    <h1 class="cursos-programacion">Cursos</h1>
+    <div class="card-deck mt-4">
+      <div class="card">
+        <img src="assets/images/imagencard1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso de HTML y CSS</h5>
+          <p class="card-text">Aprende a crear sitios web con HTML y CSS.</p>
+          <a href="#" class="btn btn-primary">Ver Curso</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/imagencard2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso de JavaScript</h5>
+          <p class="card-text">Domina el lenguaje de programación JavaScript.</p>
+          <a href="#" class="btn btn-primary">Ver Curso</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-nosotros">
+    <h1 class="cursos-programacion">Sobre Nosotros</h1>
+    <div id="carousel2" class="carousel slide mt-4" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/carrusel1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carrusel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carrusel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+  </section>
+
+  <footer class="pie-pagina">
+      <div class="grupo-one">
+        <div class="box">
+          <span>
+            <a href="#">
+              <img src="assets/images/logo.png" alt="logo de data project">
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="box">
+          <p>Data Project es una comunidad de personas de todo el mundo que están aprendiendo a programar juntos. Somos una organización de beneficencia privada</p>
+          <p>Aprenderás a programar construyendo docenas de proyectos, paso a paso, directamente en tu navegador, editor de código o aplicación móvil.</p>
+      </div>
+      <div class="box">
+          <h2>Síguenos</h2>
+          <div class="red-social">
+            <a href="#" class="fab fa-facebook facebook-icon"></a>
+            <a href="#" class="fab fa-twitter twitter-icon"></a>
+            <a href="#" class="fab fa-instagram instagram-icon"></a>
+            <a href="#" class="fab fa-linkedin linkedin-icon"></a>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2023 <b>Data Project</b> - Todos los Derechos Reservados</small>
+      </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
 </html>
