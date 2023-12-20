@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=devicdp-width, initial-scale=1.0">
+  <title>Data Project</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="pagdp-top">
+  <header>
+    <nav class="navbar navbar-dark dp-bg-oscuro" aria-label="dataproject-navbar">
+      <div class="container-fluid navbar-expand-lg col-lg-12 px-5">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" id="offcanvasNavbar2">
+          <div class="offcanvas-header dp-bg-transparentdp-nav">
+            <h5 class="offcanvas-title dp-txt-negro h4" id="offcanvasNavbar2Label">©Data Project 2023</h5>
+            <button type="button" class="btn-close btn-closed-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body dp-bg-oscuro">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link btn dp-verde-light-txt" aria-current="page" href="incio"><i class="fas fa-home"></i> Inicio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn dp-verde-light-txt" href="#nosotros"><i class="fas fa-users"></i> Nosotros </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn dp-verde-light-txt" href="#cursos"><i class="fas fa-book"></i> Cursos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn dp-verde-light-txt" href="#membresia"><i class="fas fa-dollar-sign"></i> Membresia </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2 dp-nomostrar">|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn dp-verde-light-txt" href="#iniciar sesión"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link btn dp-verde-light-txt" href="#registro"><i class="fas fa-user-plus"></i> Registro </a>
+              </li>
+            </ul>      
+          </div>        
+        </div>
+      </div>  
+    </nav>
+  </header>
+  <main>
+  <section id="">
+    <div class="container py-5 px-5">
+      <div class="row">
+        <div class="col-lg-6 px-5">
+          <a class="dp-bg-verde-lig dp-txt-negro h4">Online en vivo</a>
+          <div class="px-5 py-5">
+            <h2 class="dp-texto-mediano">Cursos</h2>
+            <h1 class="dp-texto-grande">FRONT END WEB DEVELOPER</h1>
+          </div>
+        </div>
+        <div class="col-lg-6 py-3 px-3">
+          <img src="assets/images/portada.png" alt="">
+        </div>
+        <div class="border-bottom border-5 pt-5"></div>
+    </div>
+  </section>
+  <section id="nosotros">
+    <div class="py-5 text-center container">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Data Project</h1>
+          <p class="lead text-muted">En nuestra página web, ofrecemos cursos de programación accesibles a todos los públicos,<br>
+            desde S/. 1.00. Nuestro objetivo es introducir al mundo de la programación a personas con pocos recursos o que quieran potenciar sus conocimientos para trabajar en empresas o de forma independiente.</p>
+        </div>
+        <div>
+          <a href="index.html" class="btn btn-dark my-2">Ver mas Cursos</a>
+        </div>
+      </div>
+    </div>
+  <section class="dp-bg-oscuro py-3 px-3" id="contacto">
+    <div class="container justify-content-center rounded-5 px-5 dp-verde-light-f">
+      <form action="#">
+        <div class="container rounded-3">
+        <div class="row">
+          <div class="col-lg-12 text-center py-3">
+              <a class="dp-texto-grande dp-txt-negro">Contactanos</a>
+              <div>
+                  <a class="dp-texto-mediano dp-txt-negro">Realiza tus consultas sobre nuestros servicios</a>
+              </div>
+          </div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6 justify-content-center dp-box-negro">
+              <label class="h3 dp-txt-negro dp-txt-w" for="nombrdp-form">Nombres</label>
+              <input type="text" id="nombrdp-form" name="nombres" placeholder="Tus nombres completos...">
+              <label class="h3 dp-txt-negro dp-txt-w" for="apellidos-form">Apellidos</label>
+              <input type="text" id="apellidos-form" name="apellidos" placeholder="Tus apel completos...">
+              <label class="h3 dp-txt-negro dp-txt-w" for="email-form">Correo Electrónico</label>
+              <input type="email" id="email-form" name="email" placeholder="Tu correo-electrónico...">
+              <label class="h3 dp-txt-negro dp-txt-w" for="preguntas-form">Preguntas</label>
+              <select id="preguntas" name="preguntas-form">
+                  <option value="opcion-none">Seleccionar tu consulta...</option>
+                  <option value="opcion-pasajes">Costiza un curso</option>
+                  <option value="opcion-internacional">Informacion de la actividad del mes</option>
+                  <option value="opcion-nacional">Información de hosting, dominio y almacenamiento</option>
+              </select>
+              <label class="h3 dp-txt-negro dp-txt-w py-2" for="mensajdp-form">Mensaje</label>
+              <textarea id="sms" name="mensaje" placeholder="Escríbenos algo o cuentanos tus dudas..." style="height:100px"></textarea>
+              <input type="submit" value="Enviar" class="py-3 m-2">
+          </div>
+          <div class="col-lg-3"></div>
+      </form>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="px-5 dp-bg-oscuro border-top pt-5">
+      <div class="text-center dp-bg-oscuro">
+        <div class="col-lg-12 dp-txt-negro">
+          <a href="#" class=""">
+            <img class="imagen-footer" src="assets/images/logo.png" alt="logo de data project">
+          </a>
+        </div>
+      </div>
+      <div class="text-center pt-5 pb-2">
+        <ul class="col-lg-12 justify-content-center list-unstyled d-flex h3">
+          <li class="mx-3"><a href="#" class="fab fa-facebook facebook-icon"></a></li>
+          <li class="mx-3"><a href="#" class="fab fa-twitter twitter-icon"></a></li>
+          <li class="mx-3"><a href="#" class="fab fa-instagram instagram-icon"></a></li>
+          <li class="mx-3"><a href="#" class="fab fa-linkedin linkedin-icon"></a></li>
+        </ul>
+      </div>
+      <div class="text-center py-2">
+        <p class="col-lg-12 dp-txt-ver h5"> © 2023 - Data Project - Todos los Derechos Reservados.</span>
+      </div>
+    </div>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=+51924454883&text=*Buenas,%20Le%20saluda%20Edgar%20Ulloa,%20Docente%20de%20Data%20Project*" target="_blank" class="floating-button">
+    <img src="assets/images/whatsapp.png" alt="WhatsApp Logo" class="whatsapp-chat">
+  </a>
+  <a class="boton-arriba rounded border-0" href="#pagdp-top" style="opacity: 1; display: block;">
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
